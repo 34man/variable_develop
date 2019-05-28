@@ -3,10 +3,10 @@ import pandas as pd
 
 
 def load_data(sql):
-    host = "10.50.40.4"
-    PORT = 10000
-    name = "liqingfeng"
-    password = "J9qh59z39e"
+    host = ""
+    PORT = 
+    name = ""
+    password = ""
     database = "rds"
     conn = hive.Connection(host=host, port=PORT, username=name, database=database, auth='LDAP', password=password)
 
